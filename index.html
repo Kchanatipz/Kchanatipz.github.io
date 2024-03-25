@@ -20,9 +20,9 @@
             <img class="hamburger-menu" src="icons/hamburger-menu.svg">
             <img class="youtube-logo" src="icons/youtube-logo.svg">
         </div>
-        <div class="middle-section">
-            <input class="search-bar" type="text" placeholder="Search">
-            <button class="search-button">
+        <form action="https://www.youtube.com/results" class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search" name="search_query">
+            <button class="search-button" name="search_query">
                 <img class="search-icon" src="icons/search.svg">
                 <div class="tooltip">Search</div>
             </button>
@@ -30,7 +30,7 @@
                 <img class="voice-search-icon" src="icons/voice-search-icon.svg">
                 <div class="tooltip">Search with your voice</div>
             </button>
-        </div>
+        </form>
         <div class="right-section">
             <div class="icon-container">
                 <img class="upload-icon" src="icons/upload.svg">
